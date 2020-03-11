@@ -10,9 +10,6 @@ new Vue({
 }).$mount('#app')
 
 axios.get('/api/cgi-bin/musicu.fcg',CommonParams)
-  .then(function (response) {
+  .then(response => {
     console.log(response);
-  })
-  .catch(function (error) {
-    console.log(error);
   });

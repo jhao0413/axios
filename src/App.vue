@@ -2,6 +2,7 @@
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
     <h2>axios跨域</h2>
+    <h3>F12查看结果</h3>
   </div>
 </template>
 
